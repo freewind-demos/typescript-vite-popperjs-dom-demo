@@ -1,5 +1,5 @@
-TypeScript Vite React Demo
-===========================
+TypeScript Vite Demo
+====================
 
 ```
 npm install
