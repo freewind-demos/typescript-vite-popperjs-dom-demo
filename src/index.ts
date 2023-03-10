@@ -1,5 +1,8 @@
-import './Hello.pcss';
+import './index.css';
+import { createPopper } from '@popperjs/core';
+const popcorn = document.querySelector('#popcorn')!;
+const tooltip = document.querySelector<HTMLElement>('#tooltip')!;
 
-const main = document.getElementById('main');
-main!.innerHTML = 'Hello Vite!'
-
+createPopper(popcorn, tooltip, {
+    placement: 'top'
+});

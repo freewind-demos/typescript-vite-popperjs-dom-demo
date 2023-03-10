@@ -3,6 +3,7 @@
     "start": "vite --open"
   },
   "dependencies": {
+    "@popperjs/core": "^2.11.6",
     "ts-node": "10.9.1"
   },
   "devDependencies": {
